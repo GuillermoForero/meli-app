@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Box] Renders a Box Component with custom size props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+  .c0 {
+    width: 40px;
+  }
+}
+
+@media (max-width:575.98px) {
+  .c0 {
+    width: 80px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+  .c0 {
+    width: 100px;
+  }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+  .c0 {
+    width: 120px;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    width: 150px;
+  }
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+  .c0 {
+    height: 40px;
+  }
+}
+
+@media (max-width:575.98px) {
+  .c0 {
+    height: 80px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+  .c0 {
+    height: 100px;
+  }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+  .c0 {
+    height: 120px;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    height: 150px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    height="[object Object]"
+    width="[object Object]"
+  />
+</div>
+`;
+
+exports[`[Box] Renders a Box Component with default props 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
+
+<div>
+  <div
+    class="c0"
+  />
+</div>
+`;
