@@ -24,6 +24,7 @@ export interface TextProps {
   size: TextSize;
   fontSize?: string;
   fontWeight?: string;
+  margin?: string;
   className?: string;
   txtDecoration?: TextDecoration;
 }

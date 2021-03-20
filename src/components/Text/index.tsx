@@ -7,13 +7,13 @@ const Text = styled.p.attrs((props: TextProps) => ({
 }))`
   /* DEFAULT DEFINITIONS */
   font-family: 'Montserrat', sans-serif;
+  margin: ${({ margin }) => margin? margin: '0'};
   text-decoration: ${({ txtDecoration }) =>
     txtDecoration ? txtDecoration : 'none'};
   font-size: ${({ fontSize }) => fontSize? fontSize: '12px'};
   font-weight: ${({ fontWeight }) => fontWeight? fontWeight: '400'};
   text-align: ${({ textAlign }) => textAlign? textAlign: 'left'};
   color: ${({ color }) => color};
-
   /* WORD-BREAKING DEFINITIONS */
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;

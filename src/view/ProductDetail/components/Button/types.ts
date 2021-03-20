@@ -1,4 +1,4 @@
-export interface BoxProps {
+export interface ButtonProps {
   width?: string;
   height?: string;
   minHeight?: string;

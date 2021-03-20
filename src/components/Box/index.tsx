@@ -7,7 +7,6 @@ const Box = styled.div<BoxProps>`
   display: flex;
   justify-content: ${({ justifyContent }) => justifyContent || 'flex-start'};
   align-items: ${({ alignItems }) => alignItems || 'flex-start'};
-  justify-self: ${({ justifySelf }) => justifySelf || false};
   align-self: ${({ alignSelf }) => alignSelf || false};
   flex-direction: ${({ flexDirection }) => flexDirection || 'row'};
   box-sizing: border-box;

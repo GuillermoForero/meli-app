@@ -2,7 +2,7 @@ import Box from 'components/Box';
 import React from 'react';
 import ic_ML from 'assets/Logo_ML2x.png'
 import { COLORS } from 'consts';
-import ResultItem from 'components/ResultItem';
+import ResultItem from 'view/SearchResult/components/ResultItem';
 
 const SearchResult: React.FC = () => (
   <Box alignItems="center" justifyContent="center" flexDirection="column" width="80%" margin="40px 0 0" style={{ backgroundColor: `${COLORS.WHITE}` }}>

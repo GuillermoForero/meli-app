@@ -22,7 +22,7 @@ const Button = styled.button`
   color: #fff;
   border-radius: 0 2px 2px 0;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   padding: '5px 0';
 `;
 const Img = styled.img`
