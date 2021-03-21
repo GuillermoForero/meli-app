@@ -1,4 +1,4 @@
-# Picking Batch UI
+# MELI CHALLENGE
 
 The purpose of this repository is to challenge MELI.
 

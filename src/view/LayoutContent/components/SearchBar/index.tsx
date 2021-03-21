@@ -38,7 +38,6 @@ const SearchBar: React.FC = () => {
       handlers?.searchItems();
     }
   }
-
   return (
     <Box justifyContent="center" alignItems="center" width="auto">
       <Input onKeyDown={handlerEnterKey} onChange={(ev) => handlers?.setSearchValue(ev.target.value)} type="text" placeholder="Nunca dejes de buscar" />

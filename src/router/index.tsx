@@ -2,10 +2,11 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import LayoutContent from 'view/LayoutContent';
 import { ROUTES_NAVIGATION, ROUTES } from 'router/routes';
-import RouteMiddlewareController from 'view/shared/RouteGroup';
-import Checker from 'view/shared/middleware/Checker';
+import RouteMiddlewareController from 'view/shared/RouteMiddlewareController';
+import SearchChecker from 'view/shared/middleware/SearchChecker';
 import SearchResult from 'view/SearchResult';
 import ProductDetail from 'view/ProductDetail';
+import ItemDetailChecker from 'view/shared/middleware/itemDetailChecker';
 
 const Router: React.FC = () => {
   return (
@@ -14,8 +15,7 @@ const Router: React.FC = () => {
         <Route {...ROUTES[ROUTES_NAVIGATION.SEARCH_ITEMS]}
           render={(routeProps) => (
             <RouteMiddlewareController
-              middlewares={[<Checker {...routeProps} />]}
-              {...routeProps}
+              middlewares={[<SearchChecker />]}
             >
               <SearchResult />
             </RouteMiddlewareController>
@@ -24,8 +24,7 @@ const Router: React.FC = () => {
           {...ROUTES[ROUTES_NAVIGATION.ITEM_DETAIL]}
           render={(routeProps) => (
             <RouteMiddlewareController
-              middlewares={[<Checker {...routeProps} />]}
-              {...routeProps}
+              middlewares={[<ItemDetailChecker />]}
             >
               <ProductDetail />
             </RouteMiddlewareController>

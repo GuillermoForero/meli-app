@@ -12,9 +12,10 @@ export default class MeliClient extends HttpClient {
     return data;
   }
   public async getItemDetail(itemId: string): Promise<ItemDetail> {
+    console.log('hola mundo')
     const { data } = await this.get(
       `items/${itemId}`);
-
+      console.log(data)
     return data;
   }
 }

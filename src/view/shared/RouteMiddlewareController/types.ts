@@ -8,7 +8,4 @@ export interface RouteMiddlewareControllerProps {
 
 export interface MiddlewareProps {
   next?: () => void;
-  match: {
-    params: Record<string, string>;
-  };
 }

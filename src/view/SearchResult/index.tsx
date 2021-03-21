@@ -1,6 +1,5 @@
 import Box from 'components/Box';
 import React from 'react';
-import ic_ML from 'assets/Logo_ML2x.png'
 import { COLORS } from 'consts';
 import ResultItem from 'view/SearchResult/components/ResultItem';
 import { itemsSelectors } from 'state/items';

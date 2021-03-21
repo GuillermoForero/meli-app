@@ -1,10 +1,9 @@
 import React, { useState, useCallback } from 'react';
 
-import { RouteMiddlewareControllerProps } from 'view/shared/RouteGroup/types';
+import { RouteMiddlewareControllerProps } from 'view/shared/RouteMiddlewareController/types';
 
 const RouteMiddlewareController: React.FC<RouteMiddlewareControllerProps> = ({
   children,
-  match,
   middlewares,
 }: RouteMiddlewareControllerProps) => {
   const middlewaresLength = middlewares.length;
@@ -27,7 +26,6 @@ const RouteMiddlewareController: React.FC<RouteMiddlewareControllerProps> = ({
     <>
       {React.cloneElement(componentToRender, {
         next: currentMiddleware <= middlewaresLength ? next : undefined,
-        match,
       })}
     </>
   );

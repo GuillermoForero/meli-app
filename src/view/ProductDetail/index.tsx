@@ -16,6 +16,7 @@ const ItemImg = styled.img`
 
 const ProductDetail: React.FC = () => {
   const itemDetail = useSelector(itemsSelectors.itemDetail);
+  console.log(itemDetail)
   return (
     <Box justifyContent="center" padding="32px" width="60%" margin="40px 0" style={{ backgroundColor: `${COLORS.WHITE}` }}>
       <Box flexDirection="column" width="70%">

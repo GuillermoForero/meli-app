@@ -11,11 +11,11 @@ interface Props {
 const AppProvider: React.FC<Props> = ({ children }: Props) => {
   return (
     <Provider store={store}>
-      <SearchProvider>
-        <BrowserRouter>
+      <BrowserRouter>
+        <SearchProvider>
           {children}
-        </BrowserRouter>
-      </SearchProvider>
+        </SearchProvider>
+      </BrowserRouter>
     </Provider>
   );
 };

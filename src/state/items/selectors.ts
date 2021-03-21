@@ -6,19 +6,19 @@ const createDeepEqualSelector = createSelectorCreator(defaultMemoize, isEqual);
 
 export const itemsSelectors = {
   searchItems: createDeepEqualSelector(
-    ({ itemsState }: { itemsState: ItemsState }) => itemsState.searchItems,
+    ({ items }: { items: ItemsState }) => items.searchItems,
     searchItems => searchItems
   ),
   searchItemsStatus: createDeepEqualSelector(
-    ({ itemsState }: { itemsState: ItemsState }) => itemsState.searchStatus,
+    ({ items }: { items: ItemsState }) => items.searchStatus,
     searchStatus => searchStatus
   ),
   itemDetail: createDeepEqualSelector(
-    ({ itemsState }: { itemsState: ItemsState }) => itemsState.itemDetail,
+    ({ items }: { items: ItemsState }) => items.itemDetail,
     itemDetail => itemDetail
   ),
   itemDetailStatus: createDeepEqualSelector(
-    ({ itemsState }: { itemsState: ItemsState }) => itemsState.itemDetailStatus,
+    ({ items }: { items: ItemsState }) => items.itemDetailStatus,
     itemDetailStatus => itemDetailStatus
   ),
 };
