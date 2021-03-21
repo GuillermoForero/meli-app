@@ -1,5 +1,5 @@
 import Box from 'components/Box';
-import SearchBar from 'components/SearchBar';
+import SearchBar from 'view/LayoutContent/components/SearchBar';
 import React from 'react';
 import ic_ML from 'assets/Logo_ML2x.png'
 import styled from 'styled-components';

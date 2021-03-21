@@ -1,5 +1,5 @@
 import Box from 'components/Box';
-import Header from 'components/Header';
+import Header from 'view/LayoutContent/components/Header';
 import { COLORS } from 'consts';
 import React from 'react';
 

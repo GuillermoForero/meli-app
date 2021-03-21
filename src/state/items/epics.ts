@@ -31,7 +31,7 @@ const searchItemsEpic = (
     { meliClient }: EpicDependencies
   ): Observable<any> =>
     action$.pipe(
-      ofType(itemsTypes.SEARCH_ITEMS),
+      ofType(itemsTypes.GET_ITEM_DETAIL),
       mergeMap(({ payload }) =>
         from(meliClient.getItemDetail(payload)).pipe(
           mergeMap(itemDetail =>
