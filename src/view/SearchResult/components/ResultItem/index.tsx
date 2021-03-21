@@ -21,9 +21,9 @@ const ShippingIcon = styled.img`
 export interface Props {
   imgSrc: string;
   price: string;
-  description: string;
+  title: string;
   city: string;
-  isShipping: boolean;
+  freeShipping: boolean;
 }
 const ResultItem: React.FC<Props> = (props: Props) => (
   <Box justifyContent="space-between" alignItems="center" padding="16px" height="250px" style={{ backgroundColor: 'white', borderBottom: '1px solid #EEEEEE' }}>
@@ -32,11 +32,11 @@ const ResultItem: React.FC<Props> = (props: Props) => (
       <Box flexDirection="column" width="auto" alignSelf="flex-start" margin="0 0 0 10px">
         <Box alignItems="center" margin="16px 0 32px">
           <Text color={COLORS.GRAY_20} fontSize="24px">{'$ '}{props.price}</Text>
-          {props.isShipping &&
+          {props.freeShipping &&
             <ShippingIcon src={icShipping} alt="shippingImg" />
           }
         </Box>
-        <Text color={COLORS.GRAY_40} fontSize="18px">{props.description}</Text>
+        <Text color={COLORS.GRAY_40} fontSize="18px">{props.title}</Text>
       </Box>
     </Box>
     <Box alignSelf="flex-start" width="auto" padding="20px 50px 0 0">
