@@ -11,7 +11,7 @@ const ItemDetailChecker: React.FC<MiddlewareProps> = ({
   next,
 }: MiddlewareProps) => {
   const dispatch = useDispatch();
-  const { navigateTo, routeParams, currentLocation } = useNavigator();
+  const { navigateTo, routeParams } = useNavigator();
   const itemDetailStatus = useSelector(itemsSelectors.itemDetailStatus);
   useEffect(() => {
     if (itemDetailStatus === REQUEST_STATUS.FAILED) {
@@ -19,15 +19,11 @@ const ItemDetailChecker: React.FC<MiddlewareProps> = ({
     }
 
     if (itemDetailStatus === REQUEST_STATUS.LOADED) {
-      console.log('loaded')
       next && next();
     }
 
     if (itemDetailStatus === REQUEST_STATUS.NOT_STARTED) {
-      console.log(routeParams)
-      console.log(currentLocation)
       const searchParam = routeParams.id;
-      console.log(searchParam)
       if (searchParam) {
         dispatch(itemsActions.getItemDetail(searchParam));
       }

@@ -12,10 +12,10 @@ export const ROUTES = {
         urlTemplate: '/'
     },
     [ROUTES_NAVIGATION.SEARCH_ITEMS]: {
-        path: '/items?search=searchValue',
+        path: '/items/search/:searchValue',
         strict: true,
         exact: true,
-        urlTemplate: '/items?search={{searchValue}}'
+        urlTemplate: '/items/search/{{searchValue}}'
     },
     [ROUTES_NAVIGATION.ITEM_DETAIL]: {
         path: '/items/:id',
