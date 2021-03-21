@@ -21,7 +21,6 @@ export const buildRoute = (route: string, params: KeyValue) => {
       buildedRoute = buildedRoute.replace(`{{${s}}}`, params[s]);
     }
   });
-
   return buildedRoute.replace(/\/{{(.*)}}/, '');
 };
 
@@ -32,7 +31,7 @@ const useNavigator = (): NavigationService => {
 
   const navigateTo = useCallback(
     (route: ROUTES_NAVIGATION, params: KeyValue = {}) => {
-      history.push(buildRoute(ROUTES[route].urlTemplate, params));
+      history.push(buildRoute(ROUTES[route].urlTemplate, params), {path: '/'});
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps
     []

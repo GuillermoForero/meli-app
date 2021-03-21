@@ -30,7 +30,7 @@ const ProductDetail: React.FC = () => {
           <Text color={COLORS.GRAY_40} margin="0 0 14px">{itemDetail?.item.condition || ''} - 234 vendidos</Text>
         </Box>
         <Text color={COLORS.GRAY_20} fontSize="24px" margin="0 0 32px">{itemDetail?.item.title || ''}</Text>
-        <Text color={COLORS.GRAY_20} fontSize="46px" margin="0 0 32px">{itemDetail?.item.price || ''}</Text>
+        <Text color={COLORS.GRAY_20} fontSize="46px" margin="0 0 32px">$ {itemDetail?.item.price || ''}</Text>
         <Button>Comprar</Button>
       </Box>
     </Box>

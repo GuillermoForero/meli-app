@@ -21,6 +21,6 @@ export const ROUTES = {
         path: '/items/:id',
         strict: true,
         exact: true,
-        urlTemplate: 'items/{{id}}'
+        urlTemplate: '/items/{{id}}'
     },
 };

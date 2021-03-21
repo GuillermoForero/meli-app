@@ -10,7 +10,7 @@ const SearchResult: React.FC = () => {
   return (
     <Box alignItems="center" justifyContent="center" flexDirection="column" width="80%" margin="40px 0 0" style={{ backgroundColor: `${COLORS.WHITE}` }}>
       {searchItems?.items.map((item, index) => (
-        <ResultItem key={index} imgSrc={item.picture} price={item.price} title={item.title} city="mendoza" freeShipping={item.free_shipping} />  
+        <ResultItem id={item.id} key={index} imgSrc={item.picture} price={item.price} title={item.title} city="mendoza" freeShipping={item.free_shipping} />  
       ))}
     </Box>
   )
