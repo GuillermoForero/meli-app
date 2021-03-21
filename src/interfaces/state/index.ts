@@ -1,0 +1,6 @@
+export enum REQUEST_STATUS {
+    NOT_STARTED = 'NOT_STARTED',
+    LOADED = 'LOADED',
+    FAILED = 'FAILED',
+    LOADING = 'LOADING',
+}
