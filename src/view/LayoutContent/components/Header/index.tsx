@@ -3,7 +3,7 @@ import SearchBar from 'view/LayoutContent/components/SearchBar';
 import React from 'react';
 import ic_ML from 'assets/Logo_ML2x.png'
 import styled from 'styled-components';
-import useNavigator from 'view/shared/hook/useNavigator';
+import useNavigator from 'hook/useNavigator';
 import { ROUTES_NAVIGATION } from 'router/routes';
 
 const MeliLogo = styled.img`

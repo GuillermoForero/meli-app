@@ -2,7 +2,7 @@ import React, { createContext, useMemo, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { SearchHandlers, SearchState } from 'context/interfaces/interfaces';
 import { itemsActions } from 'state/items';
-import useNavigator from 'view/shared/hook/useNavigator';
+import useNavigator from 'hook/useNavigator';
 import { ROUTES_NAVIGATION } from 'router/routes';
 
 export const SearchContext = createContext<{

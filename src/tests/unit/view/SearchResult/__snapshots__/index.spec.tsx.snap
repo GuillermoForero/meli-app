@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[SearchResult] Renders default snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ igDvBF"
+    style="background-color: rgb(255, 255, 255);"
+    width="80%"
+  >
+    <div
+      class="sc-bdfBwQ jSyNHr"
+      height="250px"
+      style="background-color: white; border-bottom: 1px solid #EEEEEE; cursor: pointer;"
+    >
+      <div
+        class="sc-bdfBwQ fupvXF"
+        height="100%"
+        width="auto"
+      >
+        <img
+          alt="itemImg"
+          class="sc-dlfnbm jOTYEy"
+          src="url"
+        />
+        <div
+          class="sc-bdfBwQ gFVLDs"
+          width="auto"
+        >
+          <div
+            class="sc-bdfBwQ elKagT"
+          >
+            <p
+              class="sc-gsTCUz hlgCHO"
+              color="#333333"
+              font-size="24px"
+            >
+              $ 
+              price_1
+            </p>
+            <img
+              alt="shippingImg"
+              class="sc-hKgILt fzDEKB"
+              src="ic_shipping2x.png"
+            />
+          </div>
+          <p
+            class="sc-gsTCUz dBUicl"
+            color="#666666"
+            font-size="18px"
+          >
+            title_1
+          </p>
+        </div>
+      </div>
+      <div
+        class="sc-bdfBwQ bTSHhi"
+        width="auto"
+      >
+        <p
+          class="sc-gsTCUz bYFAOz"
+          color="#999999"
+          font-size="12px"
+        >
+          mendoza
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

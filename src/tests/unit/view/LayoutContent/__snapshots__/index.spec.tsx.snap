@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[LayoutContent] Renders default snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ kkjLqa"
+    style="background-color: rgb(238, 238, 238);"
+  >
+    <div
+      class="sc-bdfBwQ dykpMl"
+      height="60px"
+      style="background-color: rgb(255, 230, 0);"
+    >
+      <img
+        alt="search"
+        class="sc-eCssSg kFfXRd"
+        src="Logo_ML2x.png"
+      />
+      <div
+        class="sc-bdfBwQ hjxpIr"
+        width="auto"
+      >
+        <input
+          class="sc-gsTCUz kebsqW"
+          placeholder="Nunca dejes de buscar"
+          type="text"
+        />
+        <button
+          class="sc-dlfnbm iNXthm"
+          type="submit"
+        >
+          <img
+            alt="search"
+            class="sc-hKgILt irWZxG"
+            src="ic_Search2x.png"
+          />
+        </button>
+      </div>
+    </div>
+    text example
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Middleware SearchChecker] Runs a setup SearchChecker middleware 1`] = `
+<div>
+  <p>
+    This is a Fake Component
+  </p>
+</div>
+`;
+
+exports[`[Middleware SearchChecker] SearchChecker middleware with empty store 1`] = `<div />`;

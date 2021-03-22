@@ -5,7 +5,7 @@ import { ROUTES_NAVIGATION } from 'router/routes';
 import { itemsActions, itemsSelectors } from 'state/items';
 
 import { MiddlewareProps } from 'view/shared/RouteMiddlewareController/types';
-import useNavigator from 'view/shared/hook/useNavigator';
+import useNavigator from 'hook/useNavigator';
 
 const ItemDetailChecker: React.FC<MiddlewareProps> = ({
   next,

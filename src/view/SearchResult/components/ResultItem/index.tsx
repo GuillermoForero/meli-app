@@ -5,7 +5,7 @@ import icShipping from 'assets/ic_shipping2x.png'
 import styled from 'styled-components';
 import { COLORS } from 'consts';
 import { ROUTES_NAVIGATION } from 'router/routes';
-import useNavigator from 'view/shared/hook/useNavigator';
+import useNavigator from 'hook/useNavigator';
 import { useDispatch } from 'react-redux';
 import { itemsActions } from 'state/items';
 

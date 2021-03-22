@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ProductDetail] Renders default snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ cqmHtv"
+    style="background-color: rgb(255, 255, 255);"
+    width="60%"
+  >
+    <div
+      class="sc-bdfBwQ iprqeO"
+      width="70%"
+    >
+      <img
+        alt="ItemImg"
+        class="sc-hKgILt cMdvAc"
+        src="url"
+      />
+      <p
+        class="sc-gsTCUz fsMKvf"
+        color="#333333"
+        font-size="28px"
+      >
+        Descripción del producto
+      </p>
+      <p
+        class="sc-gsTCUz iAHnmD"
+        color="#999999"
+        font-size="16px"
+      >
+        description_1
+      </p>
+    </div>
+    <div
+      class="sc-bdfBwQ dlxmYu"
+      width="30%"
+    >
+      <div
+        class="sc-bdfBwQ iuSpZg"
+      >
+        <p
+          class="sc-gsTCUz kuxMhy"
+          color="#666666"
+        >
+          new
+           - 234 vendidos
+        </p>
+      </div>
+      <p
+        class="sc-gsTCUz jlFbYn"
+        color="#333333"
+        font-size="24px"
+      >
+        title_1
+      </p>
+      <p
+        class="sc-gsTCUz fEYSX"
+        color="#333333"
+        font-size="46px"
+      >
+        $ 
+        price_1
+      </p>
+      <button
+        class="sc-dlfnbm hKzPBz"
+      >
+        Comprar
+      </button>
+    </div>
+  </div>
+</div>
+`;
