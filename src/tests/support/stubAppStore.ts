@@ -1,5 +1,4 @@
 import { REQUEST_STATUS } from "interfaces/state";
-import { ItemsState } from "state/items/state";
 
 export const appStoreFull = {
     items: {
