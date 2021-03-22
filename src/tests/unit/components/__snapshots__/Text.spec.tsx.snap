@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Text] Renders default snapshot 1`] = `
+<div>
+  <p
+    class="sc-bdfBwQ fRKeIP"
+    color="#333333"
+  >
+    text example
+  </p>
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Box] Renders default snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ iuSpZg"
+  >
+    <p
+      class="sc-gsTCUz yjmFn"
+      color="#333333"
+    >
+      text example1
+    </p>
+    <p
+      class="sc-gsTCUz yjmFn"
+      color="#333333"
+    >
+      text example2
+    </p>
+  </div>
+</div>
+`;
