@@ -1,19 +1,17 @@
 import { REQUEST_STATUS } from 'interfaces/state';
-import React, { useContext, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { ROUTES_NAVIGATION } from 'router/routes';
 import { itemsActions, itemsSelectors } from 'state/items';
 
 import { MiddlewareProps } from 'view/shared/RouteMiddlewareController/types';
 import useNavigator from 'hook/useNavigator';
-import { SearchContext } from 'context/SearchContext';
 
 const SearchChecker: React.FC<MiddlewareProps> = ({
   next,
 }: MiddlewareProps) => {
   const dispatch = useDispatch();
   const { navigateTo, routeParams } = useNavigator();
-  const { handlers } = useContext(SearchContext);
   const searchStatus = useSelector(itemsSelectors.searchItemsStatus);
   useEffect(() => {
     if (searchStatus === REQUEST_STATUS.FAILED) {
@@ -21,7 +19,6 @@ const SearchChecker: React.FC<MiddlewareProps> = ({
     }
 
     if (searchStatus === REQUEST_STATUS.LOADED) {
-      handlers?.setSearchValue(routeParams.searchValue);
       next && next();
     }
 
