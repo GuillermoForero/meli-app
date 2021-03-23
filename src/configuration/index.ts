@@ -4,7 +4,7 @@ import { merge } from 'lodash';
 const base: AppConfiguration = {
   hosts: {
     meli: {
-      baseUrl: 'http://54.164.66.17:4000/',
+      baseUrl: 'http://localhost:4000/',
       timeout: 10000,
     },
   },

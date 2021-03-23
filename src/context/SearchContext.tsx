@@ -26,15 +26,16 @@ export const SearchProvider: React.FC = ({ children }: any) => {
   const setSearchValue = (
     value: string
   ) => {
+    if(!value.includes('%'))
     setState({
       searchValue: value,
     })
   };
 
   const searchItems = () => {
-    if(state.searchValue){
+    if (state.searchValue) {
       dispatch(itemsActions.searchItems(state.searchValue));
-      navigateTo(ROUTES_NAVIGATION.SEARCH_ITEMS, {searchValue: state.searchValue})
+      navigateTo(ROUTES_NAVIGATION.SEARCH_ITEMS, { searchValue: state.searchValue })
     }
   };
 

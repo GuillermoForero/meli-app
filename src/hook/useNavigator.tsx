@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { useHistory, useParams, useLocation } from 'react-router-dom';
+import { useHistory, useParams } from 'react-router-dom';
 
 import { ROUTES_NAVIGATION, ROUTES } from 'router/routes';
 import { KeyValue } from 'state/utils';
@@ -25,7 +25,6 @@ export const buildRoute = (route: string, params: KeyValue) => {
 };
 
 const useNavigator = (): NavigationService => {
-  const location = useLocation();
   const history = useHistory();
   const routeParams = useParams<RouteParams>();
 
