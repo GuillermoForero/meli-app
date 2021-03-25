@@ -25,7 +25,7 @@ const ShippingIcon = styled.img`
 export interface Props {
   id: string;
   imgSrc: string;
-  price: string;
+  price: number;
   title: string;
   city: string;
   freeShipping: boolean;
