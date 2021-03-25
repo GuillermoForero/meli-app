@@ -11,7 +11,7 @@ const SearchChecker: React.FC<MiddlewareProps> = ({
   next,
 }: MiddlewareProps) => {
   const dispatch = useDispatch();
-  const { navigateTo, routeParams } = useNavigator();
+  const { navigateTo, searchParams } = useNavigator();
   const searchStatus = useSelector(itemsSelectors.searchItemsStatus);
   useEffect(() => {
     if (searchStatus === REQUEST_STATUS.FAILED) {
@@ -23,10 +23,10 @@ const SearchChecker: React.FC<MiddlewareProps> = ({
     }
 
     if (searchStatus === REQUEST_STATUS.NOT_STARTED) {
-      const searchParam = routeParams.searchValue;
-      if (searchParam) {
+      if (searchParams.includes('?search')) {
+        const searchParam = searchParams.replace('?search=', '')
         dispatch(itemsActions.searchItems(searchParam));
-      }else{
+      } else {
         navigateTo(ROUTES_NAVIGATION.SEARCHER);
       }
     }

@@ -26,7 +26,7 @@ describe('[useNavigator]', () => {
     {
       name: 'CATALOGUE route',
       params: { searchValue: 'searchValue' },
-      result: '/items/search/searchValue',
+      result: '/items?search=searchValue',
       route: ROUTES_NAVIGATION.SEARCH_ITEMS,
     },
     {

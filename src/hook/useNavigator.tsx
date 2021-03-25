@@ -1,5 +1,5 @@
 import { useCallback } from 'react';
-import { useHistory, useParams } from 'react-router-dom';
+import { useHistory, useLocation, useParams } from 'react-router-dom';
 
 import { ROUTES_NAVIGATION, ROUTES } from 'router/routes';
 import { KeyValue } from 'state/utils';
@@ -7,6 +7,7 @@ import { KeyValue } from 'state/utils';
 interface NavigationService {
   navigateTo: (route: ROUTES_NAVIGATION, params?: object) => void;
   routeParams: KeyValue;
+  searchParams: string;
 }
 interface RouteParams {
   searchValue: string;
@@ -26,6 +27,7 @@ export const buildRoute = (route: string, params: KeyValue) => {
 
 const useNavigator = (): NavigationService => {
   const history = useHistory();
+  const {search} = useLocation();
   const routeParams = useParams<RouteParams>();
 
   const navigateTo = useCallback(
@@ -39,6 +41,7 @@ const useNavigator = (): NavigationService => {
   return {
     routeParams,
     navigateTo,
+    searchParams: search,
   };
 };
 

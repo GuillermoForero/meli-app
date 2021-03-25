@@ -1,7 +1,7 @@
 {
   "name": "mercado-libre",
   "version": "0.1.0",
-  "author": "muni-tech",
+  "author": "guillermo-forero",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
