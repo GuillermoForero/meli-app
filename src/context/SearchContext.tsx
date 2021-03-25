@@ -4,7 +4,7 @@ import { SearchHandlers, SearchState } from 'context/interfaces/interfaces';
 import { itemsActions } from 'state/items';
 import useNavigator from 'hook/useNavigator';
 import { ROUTES_NAVIGATION } from 'router/routes';
-
+//my goal with the use of context was to provide a way to send the request from various points, it may not be entirely necessary yet
 export const SearchContext = createContext<{
   handlers?: SearchHandlers;
   state: SearchState;

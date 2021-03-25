@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { TextProps } from 'components/Text/types';
 import { COLORS } from 'consts';
+//I created this reusable component because for SEO it would not affect much, due to the behavior of the website itself and the react
 const Text = styled.p.attrs((props: TextProps) => ({
   ...props,
   color: props.color || COLORS.GRAY_20,

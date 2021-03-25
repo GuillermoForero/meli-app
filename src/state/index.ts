@@ -4,7 +4,11 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 
 import { itemsReducer, itemsEpics } from 'state/items';
 import HttpClients from 'http/http.clients';
-
+/* 
+In general, for the use of the store I use types, reducer, action and epic.
+I use the latter to have a way to control the promises in a simple way,
+also the idea is to make it easily scalable and in the future use perhaps more rxjs operators, more specific
+*/
 export type EpicDependencies = {
   meliClient: typeof HttpClients.meliHttp;
 };

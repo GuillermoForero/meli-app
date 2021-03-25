@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import { BoxProps } from './types';
-
+//I created this reusable component because for SEO it would not affect much, due to the behavior of the website itself and the react
 const Box = styled.div<BoxProps>`
   min-height: ${({ minHeight }) => (minHeight ? minHeight : false)};
   display: flex;

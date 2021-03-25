@@ -1,7 +1,8 @@
 import React, { useState, useCallback } from 'react';
 
 import { RouteMiddlewareControllerProps } from 'view/shared/RouteMiddlewareController/types';
-
+//The implementation of a kind of middleware and middleware controller is in general
+//to execute actions before the component or the view is rendered and thus when it is rendered it has what it needs loaded
 const RouteMiddlewareController: React.FC<RouteMiddlewareControllerProps> = ({
   children,
   middlewares,
