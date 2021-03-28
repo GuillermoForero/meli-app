@@ -26,7 +26,6 @@ export const SearchProvider: React.FC = ({ children }: any) => {
   const setSearchValue = (
     value: string
   ) => {
-    if(!value.includes('%'))
     setState({
       searchValue: value,
     })

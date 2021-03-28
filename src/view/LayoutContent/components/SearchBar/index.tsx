@@ -32,15 +32,22 @@ const Img = styled.img`
 `;
 
 const SearchBar: React.FC = () => {
-  const { handlers } = useContext(SearchContext);
+  const { handlers, state } = useContext(SearchContext);
   const handlerEnterKey = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
       handlers?.searchItems();
     }
   }
+  const onChangeInput = (ev: React.ChangeEvent<HTMLInputElement>) => {
+    const value = ev.target.value;
+    if (!value.includes('%')) {
+      handlers?.setSearchValue(ev.target.value)
+    }
+  }
   return (
     <Box justifyContent="center" alignItems="center" width="auto">
-      <Input onKeyDown={handlerEnterKey} onChange={(ev) => handlers?.setSearchValue(ev.target.value)} type="text" placeholder="Nunca dejes de buscar" />
+      <Input value={state.searchValue} onKeyDown={handlerEnterKey}
+        onChange={onChangeInput} type="text" placeholder="Nunca dejes de buscar" />
       <Button type="submit" onClick={() => handlers?.searchItems()}>
         <Img src={ic_Search} alt="search" />
       </Button>
