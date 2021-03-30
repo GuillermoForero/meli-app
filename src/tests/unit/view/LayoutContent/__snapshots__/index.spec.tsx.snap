@@ -24,6 +24,7 @@ exports[`[LayoutContent] Input value 1`] = `
           class="sc-gsTCUz kebsqW"
           placeholder="Nunca dejes de buscar"
           type="text"
+          value=""
         />
         <button
           class="sc-dlfnbm iNXthm"
@@ -66,6 +67,7 @@ exports[`[LayoutContent] Renders default snapshot 1`] = `
           class="sc-gsTCUz kebsqW"
           placeholder="Nunca dejes de buscar"
           type="text"
+          value=""
         />
         <button
           class="sc-dlfnbm iNXthm"

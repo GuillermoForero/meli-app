@@ -7,13 +7,15 @@ import SearchChecker from 'view/shared/middleware/SearchChecker';
 import SearchResult from 'view/SearchResult';
 import ProductDetail from 'view/ProductDetail';
 import ItemDetailChecker from 'view/shared/middleware/itemDetailChecker';
-
+/*
+I wanted to organize the router a bit so I separated the routes in another file, there is also the way they are organized and other parameters
+*/
 const Router: React.FC = () => {
   return (
     <Switch>
       <LayoutContent>
         <Route {...ROUTES[ROUTES_NAVIGATION.SEARCH_ITEMS]}
-          render={(routeProps) => (
+          render={() => (
             <RouteMiddlewareController
               middlewares={[<SearchChecker />]}
             >
@@ -22,7 +24,7 @@ const Router: React.FC = () => {
           )} />
         <Route
           {...ROUTES[ROUTES_NAVIGATION.ITEM_DETAIL]}
-          render={(routeProps) => (
+          render={() => (
             <RouteMiddlewareController
               middlewares={[<ItemDetailChecker />]}
             >

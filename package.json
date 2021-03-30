@@ -1,7 +1,7 @@
 {
   "name": "mercado-libre",
   "version": "0.1.0",
-  "author": "guillermo-forero",
+  "author": "guillermo-forerom",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
