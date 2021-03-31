@@ -1,13 +1,3 @@
-import { COLORS } from 'consts';
-export type TextSize =
-  | 'button1'
-  | 'button2'
-  | 'body1'
-  | 'body2'
-  | 'body3'
-  | 'caption'
-  | 'overline';
-
 export type TextDecoration =
   | 'underline'
   | 'line-through'
@@ -19,9 +9,8 @@ export type TextAlign =
   | 'right';
 
 export interface TextProps {
-  color?: typeof COLORS;
-  align?: TextAlign;
-  size: TextSize;
+  color?: string;
+  textAlign?: TextAlign;
   fontSize?: string;
   fontWeight?: string;
   margin?: string;

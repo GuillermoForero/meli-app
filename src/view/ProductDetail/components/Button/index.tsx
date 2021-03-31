@@ -1,4 +1,3 @@
-import { COLORS } from 'consts';
 import styled from 'styled-components';
 
 import { ButtonProps } from './types';
@@ -11,7 +10,7 @@ const Button = styled.button<ButtonProps>`
   border-radius: 2px;
   margin:0 0.3em 0.3em 0;
   border: none;
-  background-color: ${COLORS.MELI_BLUE};
+  background-color: ${({ theme }) => theme.MELI_BLUE};
   text-decoration:none;
   font-family:'Roboto',sans-serif;
   font-weight:300;

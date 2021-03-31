@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { BoxProps } from './types';
+import { BoxProps } from 'components/Box/types';
 //I created this reusable component because for SEO it would not affect much, due to the behavior of the website itself and the react
 const Box = styled.div<BoxProps>`
   min-height: ${({ minHeight }) => (minHeight ? minHeight : false)};
@@ -14,6 +14,7 @@ const Box = styled.div<BoxProps>`
   width: ${({ width }) => width || '100%'};
   padding: ${({ padding }) => padding || '0'};
   margin: ${({ margin }) => margin || '0'};
+  background-color: ${({ backgroundColor, theme }) => backgroundColor? theme[backgroundColor] : false};
 `;
 
 export default Box;

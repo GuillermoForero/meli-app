@@ -2,10 +2,7 @@ import styled from 'styled-components';
 import { TextProps } from 'components/Text/types';
 import { COLORS } from 'consts';
 //I created this reusable component because for SEO it would not affect much, due to the behavior of the website itself and the react
-const Text = styled.p.attrs((props: TextProps) => ({
-  ...props,
-  color: props.color || COLORS.GRAY_20,
-}))`
+const Text = styled.p<TextProps>`
   /* DEFAULT DEFINITIONS */
   font-family: 'Montserrat', sans-serif;
   margin: ${({ margin }) => margin? margin: '0'};
@@ -14,7 +11,7 @@ const Text = styled.p.attrs((props: TextProps) => ({
   font-size: ${({ fontSize }) => fontSize? fontSize: '12px'};
   font-weight: ${({ fontWeight }) => fontWeight? fontWeight: '400'};
   text-align: ${({ textAlign }) => textAlign? textAlign: 'left'};
-  color: ${({ color }) => color};
+  color: ${({ theme, color }) => color? theme[color]: theme[COLORS.GRAY_20]};
   /* WORD-BREAKING DEFINITIONS */
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;

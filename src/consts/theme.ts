@@ -1,0 +1,9 @@
+export const theme = {
+    MELI_YELLOW: "#FFE600",
+	GRAY_20: "#333333",
+	GRAY_40: "#666666",
+	GRAY_60: "#999999",
+	DEFAULT_GRAY: "#EEEEEE",
+	MELI_BLUE: "#3883FA",
+	WHITE: "#FFFFFF",
+  };

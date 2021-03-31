@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import useNavigator from 'hook/useNavigator';
 import { ROUTES_NAVIGATION } from 'router/routes';
 import { SearchContext } from 'context/SearchContext';
+import { COLORS } from 'consts';
 
 const MeliLogo = styled.img`
   height: 35px;
@@ -21,7 +22,7 @@ const Header: React.FC = () => {
     handlers?.setSearchValue('');
   }
   return(
-  <Box alignItems="center" justifyContent="center" height="60px" style={{backgroundColor: '#FFE600'}}>
+  <Box alignItems="center" justifyContent="center" height="60px" backgroundColor={COLORS.MELI_YELLOW}>
     <MeliLogo onClick={() => handlerClickMeliLogo()} src={ic_ML} alt="search"/>
     <SearchBar/>  
   </Box>

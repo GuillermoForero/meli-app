@@ -8,4 +8,5 @@ export interface BoxProps {
   flexDirection?: string;
   padding?: string;
   margin?: string;
+  backgroundColor?: string;
 }

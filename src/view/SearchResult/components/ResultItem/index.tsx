@@ -50,11 +50,11 @@ const ResultItem: React.FC<Props> = (props: Props) => {
               <ShippingIcon src={icShipping} alt="shippingImg" />
             }
           </Box>
-          <Text color={COLORS.GRAY_40} fontSize="18px">{props.title}</Text>
+          <Text color={COLORS.GRAY_40} fontSize="18px" as="h4">{props.title}</Text>
         </Box>
       </Box>
       <Box alignSelf="flex-start" width="auto" padding="20px 50px 0 0">
-        <Text color={COLORS.GRAY_60} fontSize="12px">{props.city}</Text>
+        <Text color={COLORS.GRAY_60} fontSize="12px"  as="span">{props.city}</Text>
       </Box>
     </Box>
 
