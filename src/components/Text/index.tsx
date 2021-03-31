@@ -8,10 +8,10 @@ const Text = styled.p<TextProps>`
   margin: ${({ margin }) => margin? margin: '0'};
   text-decoration: ${({ txtDecoration }) =>
     txtDecoration ? txtDecoration : 'none'};
-  font-size: ${({ fontSize }) => fontSize? fontSize: '12px'};
+  font-size: ${({ fontSize, theme }) => fontSize? theme.fontSizes[fontSize]: theme.fontSizes['xxx_small']};
   font-weight: ${({ fontWeight }) => fontWeight? fontWeight: '400'};
   text-align: ${({ textAlign }) => textAlign? textAlign: 'left'};
-  color: ${({ theme, color }) => color? theme[color]: theme[COLORS.GRAY_20]};
+  color: ${({ theme, color }) => color? theme.colors[color]: theme.colors[COLORS.GRAY_20]};
   /* WORD-BREAKING DEFINITIONS */
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;

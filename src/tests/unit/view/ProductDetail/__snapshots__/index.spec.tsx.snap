@@ -30,16 +30,16 @@ exports[`[ProductDetail] Renders default snapshot 1`] = `
               src="url"
             />
             <h4
-              class="sc-gsTCUz dWZGgs"
+              class="sc-gsTCUz fsMKvf"
               color="GRAY_20"
-              font-size="28px"
+              font-size="large"
             >
               Descripción del producto
             </h4>
             <p
-              class="sc-gsTCUz eugcRc"
+              class="sc-gsTCUz iAHnmD"
               color="GRAY_60"
-              font-size="16px"
+              font-size="x_small"
             >
               description_1
             </p>
@@ -52,7 +52,7 @@ exports[`[ProductDetail] Renders default snapshot 1`] = `
               class="sc-bdfBwQ itqDgf"
             >
               <span
-                class="sc-gsTCUz hPYUwp"
+                class="sc-gsTCUz kuxMhy"
                 color="GRAY_40"
               >
                 new
@@ -60,22 +60,22 @@ exports[`[ProductDetail] Renders default snapshot 1`] = `
               </span>
             </div>
             <h2
-              class="sc-gsTCUz HgnEE"
+              class="sc-gsTCUz jlFbYn"
               color="GRAY_20"
-              font-size="24px"
+              font-size="medium"
             >
               title_1
             </h2>
             <p
-              class="sc-gsTCUz iTjGZM"
+              class="sc-gsTCUz fEYSX"
               color="GRAY_20"
-              font-size="46px"
+              font-size="x_large"
             >
               $ 
               price_1
             </p>
             <button
-              class="sc-dlfnbm jxOxHE"
+              class="sc-dlfnbm iyAepA"
             >
               Comprar
             </button>

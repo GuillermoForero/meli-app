@@ -9,20 +9,20 @@ const Input = styled.input`
   height: 39px;
   border: 2px;
   outline: none;
-  color: ${({ theme }) => theme.GRAY_20};
-  font-size: 16px;
+  color: ${({ theme }) => theme.colors.GRAY_20};
+  font-size: ${({ theme }) => theme.fontSizes.x_small};
   border: none;
 `;
 const Button = styled.button`
   width: 40px;
   height: 39px;
   border: none;
-  background: ${({ theme }) => theme.DEFAULT_GRAY};
+  background: ${({ theme }) => theme.colors.DEFAULT_GRAY};
   text-align: center;
   color: #fff;
   border-radius: 0 2px 2px 0;
   cursor: pointer;
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSizes.small};
   padding: '5px 0';
 `;
 const Img = styled.img`

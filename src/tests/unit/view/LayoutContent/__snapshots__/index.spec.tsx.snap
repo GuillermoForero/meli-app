@@ -3,10 +3,10 @@
 exports[`[LayoutContent] Input value 1`] = `
 <div>
   <div
-    class="sc-bdfBwQ ihICCF"
+    class="sc-bdfBwQ jecqvi"
   >
     <div
-      class="sc-bdfBwQ zGHSS"
+      class="sc-bdfBwQ jamDOm"
       height="60px"
     >
       <div
@@ -36,13 +36,13 @@ exports[`[LayoutContent] Input value 1`] = `
             width="auto"
           >
             <input
-              class="sc-gsTCUz kHFBDt"
+              class="sc-gsTCUz fYQIVx"
               placeholder="Nunca dejes de buscar"
               type="text"
               value=""
             />
             <button
-              class="sc-dlfnbm kFmyZl"
+              class="sc-dlfnbm UJBLp"
               type="submit"
             >
               <img
@@ -63,10 +63,10 @@ exports[`[LayoutContent] Input value 1`] = `
 exports[`[LayoutContent] Renders default snapshot 1`] = `
 <div>
   <div
-    class="sc-bdfBwQ ihICCF"
+    class="sc-bdfBwQ jecqvi"
   >
     <div
-      class="sc-bdfBwQ zGHSS"
+      class="sc-bdfBwQ jamDOm"
       height="60px"
     >
       <div
@@ -96,13 +96,13 @@ exports[`[LayoutContent] Renders default snapshot 1`] = `
             width="auto"
           >
             <input
-              class="sc-gsTCUz kHFBDt"
+              class="sc-gsTCUz fYQIVx"
               placeholder="Nunca dejes de buscar"
               type="text"
               value=""
             />
             <button
-              class="sc-dlfnbm kFmyZl"
+              class="sc-dlfnbm UJBLp"
               type="submit"
             >
               <img

@@ -14,7 +14,7 @@ const Box = styled.div<BoxProps>`
   width: ${({ width }) => width || '100%'};
   padding: ${({ padding }) => padding || '0'};
   margin: ${({ margin }) => margin || '0'};
-  background-color: ${({ backgroundColor, theme }) => backgroundColor? theme[backgroundColor] : false};
+  background-color: ${({ backgroundColor, theme }) => backgroundColor? theme.colors[backgroundColor] : false};
 `;
 
 export default Box;

@@ -9,7 +9,7 @@ const Button = styled.button<ButtonProps>`
   border-radius: 2px;
   margin:0 0.3em 0.3em 0;
   border: none;
-  background-color: ${({ theme }) => theme.MELI_BLUE};
+  background-color: ${({ theme }) => theme.colors.MELI_BLUE};
   text-decoration:none;
   font-family:'Roboto',sans-serif;
   font-weight:300;

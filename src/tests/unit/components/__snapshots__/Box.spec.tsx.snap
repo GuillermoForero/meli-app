@@ -6,12 +6,12 @@ exports[`[Box] Renders default snapshot 1`] = `
     class="sc-bdfBwQ itqDgf"
   >
     <p
-      class="sc-gsTCUz eIfkPM"
+      class="sc-gsTCUz yjmFn"
     >
       text example1
     </p>
     <p
-      class="sc-gsTCUz eIfkPM"
+      class="sc-gsTCUz yjmFn"
     >
       text example2
     </p>

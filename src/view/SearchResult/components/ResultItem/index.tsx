@@ -3,15 +3,15 @@ import Text from 'components/Text';
 import React from 'react';
 import icShipping from 'assets/ic_shipping2x.png'
 import styled from 'styled-components';
-import { COLORS } from 'consts';
+import { COLORS, FONT_SIZES } from 'consts';
 import { ROUTES_NAVIGATION } from 'router/routes';
 import useNavigator from 'hook/useNavigator';
 import { useDispatch } from 'react-redux';
 import { itemsActions } from 'state/items';
 
 const ItemImg = styled.img`
-  height: 100%;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   object-fit: cover;
   margin-right: 16px;
   border-radius: 4px;
@@ -45,16 +45,16 @@ const ResultItem: React.FC<Props> = (props: Props) => {
         <ItemImg src={props.imgSrc} alt="itemImg" />
         <Box flexDirection="column" width="auto" alignSelf="flex-start" margin="0 0 0 10px">
           <Box alignItems="center" margin="16px 0 32px">
-            <Text color={COLORS.GRAY_20} fontSize="24px">{'$ '}{props.price}</Text>
+            <Text color={COLORS.GRAY_20} fontSize={FONT_SIZES.medium}>{'$ '}{props.price}</Text>
             {props.freeShipping &&
               <ShippingIcon src={icShipping} alt="shippingImg" />
             }
           </Box>
-          <Text color={COLORS.GRAY_40} fontSize="18px" as="h4">{props.title}</Text>
+          <Text color={COLORS.GRAY_40} fontSize={FONT_SIZES.small} as="h4">{props.title}</Text>
         </Box>
       </Box>
       <Box alignSelf="flex-start" width="auto" padding="20px 20px 0 0">
-        <Text color={COLORS.GRAY_60} fontSize="12px" as="span">{props.city}</Text>
+        <Text color={COLORS.GRAY_60} fontSize={FONT_SIZES.xxx_small}  as="span">{props.city}</Text>
       </Box>
     </Box>
 

@@ -7,3 +7,13 @@ export const COLORS = {
 	MELI_BLUE: "MELI_BLUE",
 	WHITE: "WHITE",
 }
+
+export const FONT_SIZES = {
+	xxx_small: 'xxx_small',
+	xx_small: 'xx_small',
+	x_small: 'x_small',
+	small: 'small',
+	medium: 'medium',
+	large: 'large',
+	x_large: 'x_large',
+}

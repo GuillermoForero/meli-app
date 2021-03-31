@@ -29,7 +29,7 @@ exports[`[SearchResult] Renders default snapshot 1`] = `
           >
             <img
               alt="itemImg"
-              class="sc-dlfnbm jOTYEy"
+              class="sc-dlfnbm jYvZdY"
               src="url"
             />
             <div
@@ -40,9 +40,9 @@ exports[`[SearchResult] Renders default snapshot 1`] = `
                 class="sc-bdfBwQ jCueMc"
               >
                 <p
-                  class="sc-gsTCUz cCdcQx"
+                  class="sc-gsTCUz hlgCHO"
                   color="GRAY_20"
-                  font-size="24px"
+                  font-size="medium"
                 >
                   $ 
                   price_1
@@ -54,9 +54,9 @@ exports[`[SearchResult] Renders default snapshot 1`] = `
                 />
               </div>
               <h4
-                class="sc-gsTCUz fCxHZK"
+                class="sc-gsTCUz dBUicl"
                 color="GRAY_40"
-                font-size="18px"
+                font-size="small"
               >
                 title_1
               </h4>
@@ -67,9 +67,9 @@ exports[`[SearchResult] Renders default snapshot 1`] = `
             width="auto"
           >
             <span
-              class="sc-gsTCUz eIfkPM"
+              class="sc-gsTCUz bYFAOz"
               color="GRAY_60"
-              font-size="12px"
+              font-size="xxx_small"
             >
               mendoza
             </span>
