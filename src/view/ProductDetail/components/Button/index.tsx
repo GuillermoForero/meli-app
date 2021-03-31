@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-
-import { ButtonProps } from './types';
+import { ButtonProps } from 'view/ProductDetail/components/Button/types';
 
 const Button = styled.button<ButtonProps>`
   display:inline-block;
@@ -20,6 +19,9 @@ const Button = styled.button<ButtonProps>`
   transition: all 0.2s;
   &:hover{
      background-color: #2968c8;
+    }
+    @media (max-width: 768px) {
+      width: 100px;
     }
 `;
 

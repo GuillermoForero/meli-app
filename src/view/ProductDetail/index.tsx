@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import Button from 'view/ProductDetail/components/Button';
 import { useSelector } from 'react-redux';
 import { itemsSelectors } from 'state/items';
+import { isMobile } from 'react-device-detect';
 import { Row, Col } from 'antd'
 
 const ItemImg = styled.img`
@@ -20,8 +21,8 @@ const ProductDetail: React.FC = () => {
   return (
     <Box justifyContent="center"  width="100%" margin="40px 0">
       <Row style={{ width: '100%' }}>
-        <Col span={2}></Col>
-        <Col span={20} style={{ backgroundColor: 'white' }}>
+        {!isMobile && <Col span={2}/>}
+        <Col span={isMobile? 24: 20} style={{ backgroundColor: 'white' }}>
           <Box padding="32px">
             <Box flexDirection="column" width="70%">
               <ItemImg src={itemDetail?.item.picture || ''} alt="ItemImg" />

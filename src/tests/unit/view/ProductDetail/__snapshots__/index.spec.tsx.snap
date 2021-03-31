@@ -75,7 +75,7 @@ exports[`[ProductDetail] Renders default snapshot 1`] = `
               price_1
             </p>
             <button
-              class="sc-dlfnbm lkYBwz"
+              class="sc-dlfnbm jxOxHE"
             >
               Comprar
             </button>
