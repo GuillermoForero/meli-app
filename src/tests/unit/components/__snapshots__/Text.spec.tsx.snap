@@ -3,8 +3,7 @@
 exports[`[Text] Renders default snapshot 1`] = `
 <div>
   <p
-    class="sc-bdfBwQ fRKeIP"
-    color="#333333"
+    class="sc-bdfBwQ gWLIIk"
   >
     text example
   </p>

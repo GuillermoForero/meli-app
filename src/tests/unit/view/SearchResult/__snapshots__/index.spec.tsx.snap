@@ -3,66 +3,78 @@
 exports[`[SearchResult] Renders default snapshot 1`] = `
 <div>
   <div
-    class="sc-bdfBwQ igDvBF"
-    style="background-color: rgb(255, 255, 255);"
-    width="80%"
+    class="sc-bdfBwQ bjkWJX"
+    width="100%"
   >
     <div
-      class="sc-bdfBwQ jSyNHr"
-      height="250px"
-      style="background-color: white; border-bottom: 1px solid #EEEEEE; cursor: pointer;"
+      class="ant-row"
+      style="width: 100%;"
     >
       <div
-        class="sc-bdfBwQ fupvXF"
-        height="100%"
-        width="auto"
+        class="ant-col ant-col-2"
+      />
+      <div
+        class="ant-col ant-col-20"
+        style="background-color: white;"
       >
-        <img
-          alt="itemImg"
-          class="sc-dlfnbm jOTYEy"
-          src="url"
-        />
         <div
-          class="sc-bdfBwQ gFVLDs"
-          width="auto"
+          class="sc-bdfBwQ kqamos"
+          height="250px"
+          style="background-color: white; border-bottom: 1px solid #EEEEEE; cursor: pointer;"
         >
           <div
-            class="sc-bdfBwQ elKagT"
+            class="sc-bdfBwQ cfUgem"
+            height="100%"
+            width="auto"
           >
-            <p
-              class="sc-gsTCUz hlgCHO"
-              color="#333333"
-              font-size="24px"
-            >
-              $ 
-              price_1
-            </p>
             <img
-              alt="shippingImg"
-              class="sc-hKgILt fzDEKB"
-              src="ic_shipping2x.png"
+              alt="itemImg"
+              class="sc-dlfnbm jOTYEy"
+              src="url"
             />
+            <div
+              class="sc-bdfBwQ dzmWob"
+              width="auto"
+            >
+              <div
+                class="sc-bdfBwQ jCueMc"
+              >
+                <p
+                  class="sc-gsTCUz cCdcQx"
+                  color="GRAY_20"
+                  font-size="24px"
+                >
+                  $ 
+                  price_1
+                </p>
+                <img
+                  alt="shippingImg"
+                  class="sc-hKgILt fzDEKB"
+                  src="ic_shipping2x.png"
+                />
+              </div>
+              <h4
+                class="sc-gsTCUz fCxHZK"
+                color="GRAY_40"
+                font-size="18px"
+              >
+                title_1
+              </h4>
+            </div>
           </div>
-          <p
-            class="sc-gsTCUz dBUicl"
-            color="#666666"
-            font-size="18px"
+          <div
+            class="sc-bdfBwQ iHhrNG"
+            width="auto"
           >
-            title_1
-          </p>
+            <span
+              class="sc-gsTCUz eIfkPM"
+              color="GRAY_60"
+              font-size="12px"
+            >
+              mendoza
+            </span>
+          </div>
         </div>
-      </div>
-      <div
-        class="sc-bdfBwQ bTSHhi"
-        width="auto"
-      >
-        <p
-          class="sc-gsTCUz bYFAOz"
-          color="#999999"
-          font-size="12px"
-        >
-          mendoza
-        </p>
       </div>
     </div>
   </div>

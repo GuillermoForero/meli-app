@@ -3,69 +3,85 @@
 exports[`[ProductDetail] Renders default snapshot 1`] = `
 <div>
   <div
-    class="sc-bdfBwQ cqmHtv"
-    style="background-color: rgb(255, 255, 255);"
-    width="60%"
+    class="sc-bdfBwQ iBvJIy"
+    width="100%"
   >
     <div
-      class="sc-bdfBwQ iprqeO"
-      width="70%"
-    >
-      <img
-        alt="ItemImg"
-        class="sc-hKgILt cMdvAc"
-        src="url"
-      />
-      <p
-        class="sc-gsTCUz fsMKvf"
-        color="#333333"
-        font-size="28px"
-      >
-        Descripción del producto
-      </p>
-      <p
-        class="sc-gsTCUz iAHnmD"
-        color="#999999"
-        font-size="16px"
-      >
-        description_1
-      </p>
-    </div>
-    <div
-      class="sc-bdfBwQ dlxmYu"
-      width="30%"
+      class="ant-row"
+      style="width: 100%;"
     >
       <div
-        class="sc-bdfBwQ iuSpZg"
+        class="ant-col ant-col-2"
+      />
+      <div
+        class="ant-col ant-col-20"
+        style="background-color: white;"
       >
-        <p
-          class="sc-gsTCUz kuxMhy"
-          color="#666666"
+        <div
+          class="sc-bdfBwQ hONsNi"
         >
-          new
-           - 234 vendidos
-        </p>
+          <div
+            class="sc-bdfBwQ fOdiPt"
+            width="70%"
+          >
+            <img
+              alt="ItemImg"
+              class="sc-hKgILt cMdvAc"
+              src="url"
+            />
+            <h4
+              class="sc-gsTCUz dWZGgs"
+              color="GRAY_20"
+              font-size="28px"
+            >
+              Descripción del producto
+            </h4>
+            <p
+              class="sc-gsTCUz eugcRc"
+              color="GRAY_60"
+              font-size="16px"
+            >
+              description_1
+            </p>
+          </div>
+          <div
+            class="sc-bdfBwQ eezWHV"
+            width="30%"
+          >
+            <div
+              class="sc-bdfBwQ itqDgf"
+            >
+              <span
+                class="sc-gsTCUz hPYUwp"
+                color="GRAY_40"
+              >
+                new
+                 - 234 vendidos
+              </span>
+            </div>
+            <h2
+              class="sc-gsTCUz HgnEE"
+              color="GRAY_20"
+              font-size="24px"
+            >
+              title_1
+            </h2>
+            <p
+              class="sc-gsTCUz iTjGZM"
+              color="GRAY_20"
+              font-size="46px"
+            >
+              $ 
+              price_1
+            </p>
+            <button
+              class="sc-dlfnbm lkYBwz"
+            >
+              Comprar
+            </button>
+          </div>
+        </div>
       </div>
-      <p
-        class="sc-gsTCUz jlFbYn"
-        color="#333333"
-        font-size="24px"
-      >
-        title_1
-      </p>
-      <p
-        class="sc-gsTCUz fEYSX"
-        color="#333333"
-        font-size="46px"
-      >
-        $ 
-        price_1
-      </p>
-      <button
-        class="sc-dlfnbm hKzPBz"
-      >
-        Comprar
-      </button>
     </div>
   </div>
 </div>

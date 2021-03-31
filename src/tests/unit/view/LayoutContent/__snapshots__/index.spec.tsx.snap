@@ -3,39 +3,56 @@
 exports[`[LayoutContent] Input value 1`] = `
 <div>
   <div
-    class="sc-bdfBwQ kkjLqa"
-    style="background-color: rgb(238, 238, 238);"
+    class="sc-bdfBwQ ihICCF"
   >
     <div
-      class="sc-bdfBwQ dykpMl"
+      class="sc-bdfBwQ zGHSS"
       height="60px"
-      style="background-color: rgb(255, 230, 0);"
     >
-      <img
-        alt="search"
-        class="sc-eCssSg kFfXRd"
-        src="Logo_ML2x.png"
-      />
       <div
-        class="sc-bdfBwQ hjxpIr"
-        width="auto"
+        class="ant-row"
+        style="width: 100%; height: 100%;"
       >
-        <input
-          class="sc-gsTCUz kebsqW"
-          placeholder="Nunca dejes de buscar"
-          type="text"
-          value=""
-        />
-        <button
-          class="sc-dlfnbm iNXthm"
-          type="submit"
+        <div
+          class="ant-col ant-col-4"
         >
-          <img
-            alt="search"
-            class="sc-hKgILt irWZxG"
-            src="ic_Search2x.png"
-          />
-        </button>
+          <div
+            class="sc-bdfBwQ ikEhXK"
+            height="100%"
+          >
+            <img
+              alt="search"
+              class="sc-eCssSg kFfXRd"
+              src="Logo_ML2x.png"
+            />
+          </div>
+        </div>
+        <div
+          class="ant-col ant-col-18"
+        >
+          <div
+            class="sc-bdfBwQ ghBguJ"
+            height="100%"
+            width="auto"
+          >
+            <input
+              class="sc-gsTCUz kHFBDt"
+              placeholder="Nunca dejes de buscar"
+              type="text"
+              value=""
+            />
+            <button
+              class="sc-dlfnbm kFmyZl"
+              type="submit"
+            >
+              <img
+                alt="search"
+                class="sc-hKgILt irWZxG"
+                src="ic_Search2x.png"
+              />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     text example
@@ -46,39 +63,56 @@ exports[`[LayoutContent] Input value 1`] = `
 exports[`[LayoutContent] Renders default snapshot 1`] = `
 <div>
   <div
-    class="sc-bdfBwQ kkjLqa"
-    style="background-color: rgb(238, 238, 238);"
+    class="sc-bdfBwQ ihICCF"
   >
     <div
-      class="sc-bdfBwQ dykpMl"
+      class="sc-bdfBwQ zGHSS"
       height="60px"
-      style="background-color: rgb(255, 230, 0);"
     >
-      <img
-        alt="search"
-        class="sc-eCssSg kFfXRd"
-        src="Logo_ML2x.png"
-      />
       <div
-        class="sc-bdfBwQ hjxpIr"
-        width="auto"
+        class="ant-row"
+        style="width: 100%; height: 100%;"
       >
-        <input
-          class="sc-gsTCUz kebsqW"
-          placeholder="Nunca dejes de buscar"
-          type="text"
-          value=""
-        />
-        <button
-          class="sc-dlfnbm iNXthm"
-          type="submit"
+        <div
+          class="ant-col ant-col-4"
         >
-          <img
-            alt="search"
-            class="sc-hKgILt irWZxG"
-            src="ic_Search2x.png"
-          />
-        </button>
+          <div
+            class="sc-bdfBwQ ikEhXK"
+            height="100%"
+          >
+            <img
+              alt="search"
+              class="sc-eCssSg kFfXRd"
+              src="Logo_ML2x.png"
+            />
+          </div>
+        </div>
+        <div
+          class="ant-col ant-col-18"
+        >
+          <div
+            class="sc-bdfBwQ ghBguJ"
+            height="100%"
+            width="auto"
+          >
+            <input
+              class="sc-gsTCUz kHFBDt"
+              placeholder="Nunca dejes de buscar"
+              type="text"
+              value=""
+            />
+            <button
+              class="sc-dlfnbm kFmyZl"
+              type="submit"
+            >
+              <img
+                alt="search"
+                class="sc-hKgILt irWZxG"
+                src="ic_Search2x.png"
+              />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     text example

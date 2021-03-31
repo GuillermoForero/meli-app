@@ -3,17 +3,15 @@
 exports[`[Box] Renders default snapshot 1`] = `
 <div>
   <div
-    class="sc-bdfBwQ iuSpZg"
+    class="sc-bdfBwQ itqDgf"
   >
     <p
-      class="sc-gsTCUz yjmFn"
-      color="#333333"
+      class="sc-gsTCUz eIfkPM"
     >
       text example1
     </p>
     <p
-      class="sc-gsTCUz yjmFn"
-      color="#333333"
+      class="sc-gsTCUz eIfkPM"
     >
       text example2
     </p>
