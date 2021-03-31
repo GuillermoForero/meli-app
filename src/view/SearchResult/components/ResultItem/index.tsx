@@ -35,7 +35,7 @@ const ResultItem: React.FC<Props> = (props: Props) => {
   const dispatch = useDispatch();
   const goToDetailView = () => {
     dispatch(itemsActions.getItemDetail(props.id))
-    navigateTo(ROUTES_NAVIGATION.ITEM_DETAIL, {id: props.id})
+    navigateTo(ROUTES_NAVIGATION.ITEM_DETAIL, { id: props.id })
   }
   return (
     <Box justifyContent="space-between" alignItems="center" padding="16px" height="250px"
@@ -53,8 +53,8 @@ const ResultItem: React.FC<Props> = (props: Props) => {
           <Text color={COLORS.GRAY_40} fontSize="18px" as="h4">{props.title}</Text>
         </Box>
       </Box>
-      <Box alignSelf="flex-start" width="auto" padding="20px 50px 0 0">
-        <Text color={COLORS.GRAY_60} fontSize="12px"  as="span">{props.city}</Text>
+      <Box alignSelf="flex-start" width="auto" padding="20px 20px 0 0">
+        <Text color={COLORS.GRAY_60} fontSize="12px" as="span">{props.city}</Text>
       </Box>
     </Box>
 

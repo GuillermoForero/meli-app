@@ -2,23 +2,22 @@ import Box from 'components/Box';
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 import ic_Search from 'assets/ic_Search2x.png'
-import { COLORS } from 'consts';
 import { SearchContext } from 'context/SearchContext';
 const Input = styled.input`
-  width: 700px;
+  width: 95%;
   padding: 7px 60px 9px 15px;
-  height: 19px;
+  height: 39px;
   border: 2px;
   outline: none;
-  color: ${COLORS.GRAY_20};
+  color: ${({ theme }) => theme.GRAY_20};
   font-size: 16px;
   border: none;
 `;
 const Button = styled.button`
   width: 40px;
-  height: 35px;
+  height: 39px;
   border: none;
-  background: ${COLORS.DEFAULT_GRAY};
+  background: ${({ theme }) => theme.DEFAULT_GRAY};
   text-align: center;
   color: #fff;
   border-radius: 0 2px 2px 0;
@@ -45,7 +44,7 @@ const SearchBar: React.FC = () => {
     }
   }
   return (
-    <Box justifyContent="center" alignItems="center" width="auto">
+    <Box justifyContent="flex-end" alignItems="center" width="auto" height="100%">
       <Input value={state.searchValue} onKeyDown={handlerEnterKey}
         onChange={onChangeInput} type="text" placeholder="Nunca dejes de buscar" />
       <Button type="submit" onClick={() => handlers?.searchItems()}>
