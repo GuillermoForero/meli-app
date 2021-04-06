@@ -9,10 +9,10 @@ window.addEventListener(
     window.addEventListener(
       'message',
       event => {
-        if (event.data.configMUNI) {
+        if (event.data.configMELI) {
           // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
           // @ts-ignore
-          window.configMUNI = event.data.configMUNI;
+          window.configMELI = event.data.configMELI;
         }
       },
       false

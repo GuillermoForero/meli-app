@@ -10,9 +10,9 @@ const SearchResult: React.FC = () => {
   return (
     <Box alignItems="center" justifyContent="center" flexDirection="column" width="100%" margin="40px 0 0" >
       {searchItems?.items.map((item, index) => (
-        <Row style={{ width: '100%' }}>
+        <Row style={{ width: '100%' }} key={index}>
           {!isMobile && <Col span={2}/>}
-          <Col span={isMobile? 24: 20} style={{ backgroundColor: 'white' }}>
+          <Col span={isMobile? 24: 20} style={{ backgroundColor: 'white' }} >
             <ResultItem id={item.id} key={index} imgSrc={item.picture} price={item.price} title={item.title} city="mendoza" freeShipping={item.free_shipping} />
           </Col>
         </Row>
